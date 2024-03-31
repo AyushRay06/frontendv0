@@ -78,7 +78,7 @@ export function Banner() {
               className="aspect-[2/1] overflow-hidden rounded-xl object-cover object-center shadow-2xl lg:order-1"
               height="500"
               src="/cakeBanner.jpg"
-              width="1000"
+              width="100%"
             />
           </div>
         </div>
