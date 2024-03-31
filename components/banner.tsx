@@ -18,7 +18,7 @@ export function Banner() {
       <nav className="flex h-16 items-center px-4 md:px-6 border-b border-gray-200 dark:border-gray-800">
         <Link className="flex items-center gap-2 font-semibold" href="#">
           <PackageIcon className="h-6 w-6" />
-          <span>Acme Inc</span>
+          <span>Bake Inc</span>
         </Link>
         <div className="flex-1" />
         <Link
@@ -89,22 +89,21 @@ export function Banner() {
 
 function PackageIcon(props: any) {
   return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m7.5 4.27 9 5.15" />
-      <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
-      <path d="m3.3 7 8.7 5 8.7-5" />
-      <path d="M12 22V12" />
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="cake">
+      <path
+        fill="none"
+        stroke="#303c42"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M15.5 23.5h.5M19 22.5l.5-.5M23.5 23.5H23M.5 12a2.3 2.3 0 0 0 2 1.5c1.46 0 .79-1.5 3-1.5m10.99-4.7A1.82 1.82 0 0 1 18 5.5c.84 0 2 .72 3.17-.44M2.5 10.5 3 10M4.5 6.5V7M7.5 4l.5.5M11.5 2.5 11 3M14.5 3l.5.5"
+      ></path>
+      <path
+        fill="none"
+        stroke="#303c42"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5c0-1.29.36-2.58 1.5-3a4.77 4.77 0 0 1 .07-2.2 6.442 6.442 0 0 1-1.57.2 6.51 6.51 0 1 1 5.44-3c.73.09 1.54 0 2.06.46.54-.57 1.15-.5 2-.5.463.006.918.119 1.33.33 2.11-5.973-1.022-12.525-6.995-14.635A11.467 11.467 0 0 0 12 .5z"
+      ></path>
     </svg>
   )
 }
